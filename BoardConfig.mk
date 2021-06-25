@@ -12,3 +12,6 @@ DEVICE_PATH := device/askey/deadpool
 
 ## Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := deadpool
+
+## DTB
+TARGET_DTB_NAME := g12a_s905y2_deadpool
