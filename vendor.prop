@@ -10,3 +10,6 @@ ro.frp.pst=/dev/block/by-name/frp
 ## NRDP
 ro.vendor.nrdp.audio.mixer.buffersize=1024
 ro.vendor.nrdp.modelgroup=sabrina
+
+## SOC
+ro.soc.model=AMLS905Y2
