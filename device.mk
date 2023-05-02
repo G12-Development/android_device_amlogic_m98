@@ -4,6 +4,8 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+TARGET_AMLOGIC_SOC := s4
+
 ## Bluetooth
 PRODUCT_PACKAGES += \
     libbt-vendor
@@ -27,4 +29,4 @@ include hardware/amlogic/kernel-modules/dhd-driver/firmware/firmware.mk
 $(call inherit-product, device/amlogic/g12-common/g12.mk)
 
 ## Inherit from the proprietary files makefile
-$(call inherit-product, vendor/askey/deadpool/deadpool-vendor.mk)
+$(call inherit-product, vendor/khadas/kvim1s/kvim1s-vendor.mk)

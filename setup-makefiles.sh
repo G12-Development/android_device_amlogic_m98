@@ -8,9 +8,9 @@
 
 set -e
 
-export DEVICE=deadpool
+export DEVICE=kvim1s
 export DEVICE_COMMON=g12-common
 export VENDOR_COMMON=amlogic
-export VENDOR_DEVICE=askey
+export VENDOR_DEVICE=khadas
 
 "./../../${VENDOR_COMMON}/${DEVICE_COMMON}/setup-makefiles.sh" "$@"
