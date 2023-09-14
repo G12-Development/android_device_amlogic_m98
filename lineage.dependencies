@@ -1,7 +1,7 @@
 [  
   {
-    "repository": "android_device_amlogic_g12-common",
-    "target_path": "device/amlogic/g12-common"
+    "repository": "android_device_amlogic_ne-common",
+    "target_path": "device/amlogic/ne-common"
   },
   {
     "repository": "android_hardware_amlogic_kernel-modules_dhd-driver",

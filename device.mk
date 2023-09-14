@@ -30,7 +30,7 @@ DEVICE_PACKAGE_OVERLAYS += \
 include hardware/amlogic/kernel-modules/dhd-driver/firmware/firmware.mk
 
 ## Inherit from the common tree product makefile
-$(call inherit-product, device/amlogic/g12-common/g12.mk)
+$(call inherit-product, device/amlogic/ne-common/ne.mk)
 
 ## Inherit from the proprietary files makefile
 $(call inherit-product, vendor/khadas/kvim1s/kvim1s-vendor.mk)
