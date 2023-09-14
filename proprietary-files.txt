@@ -1,15 +1,16 @@
 ### All blobs from this list, unless pinned and noted as otherwise,
 ##  are from adt3-user 13 TTT1.220909.001.B7 9305992 release-keys.
 
+# Aucpu
+vendor/lib/firmware/aucpu_fw.bin
+
 ## Keylayout
 vendor/usr/keylayout/Vendor_0001_Product_0001.kl
 
-## DRM
-#vendor/lib/liboemcrypto.so
-vendor/lib/libsecmem.so
-
 ## TZ
+# video firmware per soc
 vendor/lib/teetz/526fc4fc-7ee6-4a12-96e3-83da9565bce8.ta
-vendor/lib/teetz/9a04f079-9840-4286-ab92-e65be0885f95.ta
+# per soc
 vendor/lib/teetz/e92a43ab-b4c8-4450-aa12-b1516259613b.ta
+# hdcp per soc
 vendor/lib/teetz/ff2a4bea-ef6d-11e6-89cc-d4ae52a7b3b3.ta
