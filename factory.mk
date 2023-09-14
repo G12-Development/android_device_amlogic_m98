@@ -18,7 +18,7 @@ FACTORY_PATH := device/khadas/kvim1s/factory
 
 PRODUCT_UPGRADE_OUT := $(PRODUCT_OUT)/upgrade
 PACKAGE_CONFIG_FILE := $(PRODUCT_UPGRADE_OUT)/image.cfg
-AML_IMAGE_TOOL := $(HOST_OUT_EXECUTABLES)/aml_image_packer$(HOST_EXECUTABLE_SUFFIX)
+AML_IMAGE_TOOL := $(FACTORY_PATH)/aml_image_v2_packer
 
 INSTALLED_AML_UPGRADE_PACKAGE_TARGET := $(PRODUCT_OUT)/aml_upgrade_package.img
 
