@@ -33,7 +33,8 @@ NEEDED_IMAGES := \
     vbmeta.img \
     vbmeta_system.img \
     vendor_boot.img \
-    dtbo.img
+    dtbo.img \
+    dtb.PARTITION
 
 $(INSTALLED_AML_UPGRADE_PACKAGE_TARGET): $(addprefix $(PRODUCT_OUT)/,$(NEEDED_IMAGES)) $(AML_IMAGE_TOOL)
 	$(hide) mkdir -p $(PRODUCT_UPGRADE_OUT)
@@ -42,7 +43,7 @@ $(INSTALLED_AML_UPGRADE_PACKAGE_TARGET): $(addprefix $(PRODUCT_OUT)/,$(NEEDED_IM
 	$(hide) $(call aml-symlink-file, $(FACTORY_PATH)/aml_sdc_burn.UBOOT)
 	$(hide) $(call aml-symlink-file, $(FACTORY_PATH)/bootloader.img)
 	$(hide) $(call aml-symlink-file, $(FACTORY_PATH)/odm_ext_a.PARTITION)
-	$(hide) $(call aml-symlink-file, $(FACTORY_PATH)/oem_a.PARTITION)
+	$(hide) $(call aml-symlink-file, $(PRODUCT_OUT)/oem_a.PARTITION)
 #else ifneq ("$(wildcard vendor/khadas/kvim1s/radio/bootloader.img)","")
 #	$(hide) $(call aml-symlink-file, vendor/khadas/kvim1s/radio/bootloader.img, u-boot.bin)
 #else
@@ -55,7 +56,7 @@ $(INSTALLED_AML_UPGRADE_PACKAGE_TARGET): $(addprefix $(PRODUCT_OUT)/,$(NEEDED_IM
 	$(hide) $(call aml-symlink-file, $(FACTORY_PATH)/platform.conf)
 	$(hide) $(call aml-symlink-file, $(PRODUCT_OUT)/boot.img)
 	$(hide) $(call aml-symlink-file, $(PRODUCT_OUT)/recovery.img)
-	$(hide) $(call aml-symlink-file, $(INSTALLED_DTBIMAGE_TARGET), dtb.img)
+	$(hide) $(call aml-symlink-file, $(PRODUCT_OUT)/dtb.PARTITION)
 	$(hide) $(call aml-symlink-file, $(PRODUCT_OUT)/dtbo.img)
 	$(hide) $(call aml-symlink-file, $(PRODUCT_OUT)/super.img)
 	$(hide) $(call aml-symlink-file, $(PRODUCT_OUT)/vbmeta.img)
