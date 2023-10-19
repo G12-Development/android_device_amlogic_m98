@@ -33,4 +33,4 @@ include hardware/amlogic/kernel-modules/dhd-driver/firmware/firmware.mk
 $(call inherit-product, device/amlogic/ne-common/ne.mk)
 
 ## Inherit from the proprietary files makefile
-$(call inherit-product, vendor/khadas/kvim1s/kvim1s-vendor.mk)
+$(call inherit-product, vendor/amlogic/m98/m98-vendor.mk)

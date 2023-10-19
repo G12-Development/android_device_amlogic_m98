@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_kvim1s.mk
+    $(LOCAL_DIR)/lineage_m98.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_kvim1s-eng \
-    lineage_kvim1s-user \
-    lineage_kvim1s-userdebug
+    lineage_m98-eng \
+    lineage_m98-user \
+    lineage_m98-userdebug

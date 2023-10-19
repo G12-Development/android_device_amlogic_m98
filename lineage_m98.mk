@@ -16,12 +16,12 @@ $(call inherit-product, vendor/lineage/config/common_full_tv.mk)
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_BRAND := Khadas
-PRODUCT_DEVICE := kvim1s
+PRODUCT_BRAND := Transpeed
+PRODUCT_DEVICE := m98
 PRODUCT_GMS_CLIENTID_BASE := android-askey-tv
-PRODUCT_MANUFACTURER := khadas
-PRODUCT_MODEL := VIM1S
-PRODUCT_NAME := lineage_kvim1s
+PRODUCT_MANUFACTURER := Transpeed
+PRODUCT_MODEL := M98
+PRODUCT_NAME := lineage_m98
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=adt3 \

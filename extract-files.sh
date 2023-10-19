@@ -14,8 +14,8 @@ fi
 
 set -e
 
-export DEVICE=kvim1s
-export VENDOR=khadas
+export DEVICE=m98
+export VENDOR=amlogic
 export DEVICE_COMMON=ne-common
 export VENDOR_COMMON=amlogic
 
