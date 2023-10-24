@@ -1,5 +1,5 @@
 on boot
-    insmod /vendor/lib/modules/dhd.ko firmware_path=/vendor/etc/wifi/buildin/ nvram_path=/vendor/etc/wifi/buildin/
+    insmod /vendor/lib/modules/dhd.ko firmware_path=/vendor/etc/wifi/40183/ nvram_path=/vendor/etc/wifi/40183/nvram.txt
     chown root wifi /sys/module/dhd/parameters/firmware_path
     chown root wifi /sys/module/bcmdhd/parameters/firmware_path
     chmod 664 /sys/module/bcmdhd/parameters/firmware_path

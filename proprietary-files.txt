@@ -14,3 +14,8 @@ vendor/lib/teetz/526fc4fc-7ee6-4a12-96e3-83da9565bce8.ta
 vendor/lib/teetz/e92a43ab-b4c8-4450-aa12-b1516259613b.ta
 # hdcp per soc
 vendor/lib/teetz/ff2a4bea-ef6d-11e6-89cc-d4ae52a7b3b3.ta
+
+# Wifi
+vendor/etc/wifi/40183/fw_bcm40183b2.bin
+vendor/etc/wifi/40183/nvram.txt
+vendor/etc/wifi/40183/config.txt
