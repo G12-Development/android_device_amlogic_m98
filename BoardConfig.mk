@@ -24,6 +24,9 @@ TARGET_DTBO_NAME := android_overlay_dt
 ## Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
+## Partitions
+BOARD_SUPER_PARTITION_SIZE := 2084569088
+
 ## Wi-Fi
 BOARD_HOSTAPD_PRIVATE_LIB := lib_driver_cmd_bcmdhd
 BOARD_WLAN_DEVICE := bcmdhd
