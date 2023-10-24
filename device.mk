@@ -10,10 +10,6 @@ TARGET_AMLOGIC_SOC := s4
 PRODUCT_PACKAGES += \
     libbt-vendor
 
-## Factory
-PRODUCT_HOST_PACKAGES += \
-    aml_image_packer
-
 ## Init-Files
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/init-files/init.amlogic.wifi_buildin.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.amlogic.wifi_buildin.rc
